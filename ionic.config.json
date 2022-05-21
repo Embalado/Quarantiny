@@ -1,0 +1,7 @@
+{
+  "name": "Quarantiny",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

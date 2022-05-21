@@ -1,0 +1,77 @@
+
+
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 75%;
+    margin: 0 auto;
+    z-index: 2;
+
+    &.top {
+        top: 5%;
+    }
+
+    &.bottom {
+        bottom: 30%;
+
+        span {
+            color: #fff;
+        }
+    }
+}
+ion-slides{
+height: 100%;
+background-image: url("/assets/img/fundo.png");
+
+.slide-inner {
+    margin-top: 120px;
+    width: 50%;
+    
+    
+    color: #fff;
+    background-color: rgb(253, 166, 67);
+    border-radius: 10px;
+
+    ion-item {
+        
+        --background: rgba(255, 255, 255, 0.2);
+        --border-radius: 10px;
+        
+        ion-input {
+            --color: #fff;
+        }
+    }
+}
+}
+
+
+.main
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+ 
+    .background
+    {
+    position: absolute;
+     left: 0;
+     right: 0;
+     height: 100%;
+     background-image: url("/assets/img/fundo.png");
+     background-size: contain
+    }
+
+
+}
+/*.background
+{
+position: absolute;
+ left: 0;
+ right: 0;
+ height: 100%;
+ background-image: url("/assets/img/fundo.png");
+ 
+}*/
+
+
